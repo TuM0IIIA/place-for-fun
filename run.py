@@ -18,7 +18,7 @@ async def main():
     await dp.start_polling(bot)  # ожидает ответ от ТГ
 
 if __name__=='__main__':
-    logging.basicConfig(level=logging.INFO)  # !!! не стоит использовать в продакшн
+    #  logging.basicConfig(level=logging.INFO)  # !!! не стоит использовать в продакшн
     try:
         asyncio.run(main())  # запуск асинхронной функции возможен через 'async' и ее метод 'run'
     except KeyboardInterrupt:
